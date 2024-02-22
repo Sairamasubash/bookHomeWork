@@ -1,0 +1,17 @@
+<div class="nwl" *ngIf="swl">
+
+    <p>Wishlist</p>
+
+    <div class="dl" *ngFor="let w of wl">
+
+        <p class="db" (click)="deleteWish(w)"> delete </p>
+
+        <p>
+
+            {{w}}
+
+        </p>
+
+    </div>
+    
+</div>
